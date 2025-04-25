@@ -14,7 +14,7 @@ async function validarUID(uid) {
     const resultadoDiv = document.getElementById("resultado");
 
     try {
-        const response = await fetch(`https://3c16-181-209-119-222.ngrok-free.app/api/v1/token/${uid}`);
+        const response = await fetch(`https://aec6-181-209-119-222.ngrok-free.app/api/v1/token/${uid}`);
         const texto = await response.text();
 
         console.log("Código de estado:", response.status);
